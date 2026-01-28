@@ -1,0 +1,333 @@
+/* TAMAÑO MOVIL */
+
+@media screen and (max-width: 767px) {
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    body {
+        height: 40vh;
+        width: 100vw;
+        margin: 0%;
+    }
+
+    main section {
+        height: 175px;
+        text-align: center;
+        align-content: center;
+    }
+
+    /* imgs */
+
+    img {
+        max-width: 100%;
+    }
+
+    #s5 {
+        background-image: url(../materialEJGrid/gallery-1.jpg);
+        background-size: cover;
+    }
+
+    #s6 {
+        background-image: url(../materialEJGrid/gallery-2.jpg);
+        background-size: cover;
+    }
+
+    #s8 {
+        background-image: url(../materialEJGrid/gallery-3.jpg);
+        background-size: cover;
+    }
+
+    #s12 {
+        background-image: url(../materialEJGrid/gallery-4.jpg);
+        background-size: cover;
+    }
+
+    #s15 {
+        background-image: url(../materialEJGrid/gallery-5.jpg);
+        background-size: cover;
+    }
+
+    #s23 {
+        background-image: url(../materialEJGrid/gallery-6.jpg);
+        background-size: cover;
+    }
+
+    #s25 {
+        background-image: url(../materialEJGrid/gallery-7.jpg);
+        background-size: cover;
+    }
+
+    #s29 {
+        background-image: url(../materialEJGrid/gallery-8.jpg);
+        background-size: cover;
+    }
+
+
+    /* colores */
+
+    #s1,
+    #s10,
+    #s24 {
+        background-color: #041354;
+        color: #ededed;
+    }
+
+    #s2,
+    #s14,
+    #s26,
+    #s30 {
+        background-color: #ededed;
+        color: #041354;
+    }
+
+    #s7,
+    #s11,
+    #s19,
+    #s22 {
+        background-color: #4c7af3;
+        color: #ededed;
+    }
+
+    #s3,
+    #s17,
+    #s20 {
+        background-color: #ff834c;
+        color: white;
+    }
+
+    #s4,
+    #s16,
+    #s18,
+    #s28 {
+        background-color: #51e6d6;
+        color: #041354;
+    }
+
+    #s9,
+    #s13,
+    #s21,
+    #s27 {
+        background-color: #d4dae7;
+        color: #041354;
+    }
+
+
+
+}
+
+/* TAMAÑO DESKTOP */
+
+@media screen and (min-width:768px) {
+
+    body {
+        margin: 0%;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        column-gap: 10px;
+        row-gap: 5px;
+        height: 100vh;
+    }
+
+    main section {
+        text-align: center;
+        align-content: center;
+        position: relative;
+    }
+
+
+    /* tamaños */
+
+    #s1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #s2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    #s3 {
+        grid-column: 3/5;
+        grid-row: 1/2;
+    }
+
+    #s4 {
+        grid-column: 5/6;
+        grid-row: 1/2;
+    }
+
+    #s5 {
+        grid-column: 6/8;
+        grid-row: 1/2;
+    }
+
+    #s6 {
+        grid-column: 8/8;
+        grid-row: 1/5 1/5;
+    }
+
+    #s7 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    #s8 {
+        grid-column: 2/4;
+        grid-row: 2/4;
+    }
+
+    #s9 {
+        grid-column: 4/5;
+        grid-row: 2/3;
+    }
+
+    #s10 {
+        grid-column: 5/6;
+        grid-row: 2/3;
+    }
+
+    #s11 {
+        grid-column: 6/8;
+        grid-row: 2/3;
+    }
+
+    #s12 {
+        grid-column: 8/8;
+        grid-row: 2/3;
+    }
+
+    #s13 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    #s14 {
+        grid-column: 4/6;
+        grid-row: 3/4;
+    }
+
+    #s18 {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    #s23 {
+        grid-column: 6/7;
+        grid-row: 4/6;
+    }
+
+    #s24 {
+        grid-column: 7/8;
+        grid-row: 4/6;
+    }
+
+    #s25 {
+        grid-column: 8/8;
+        grid-row: 4/6;
+    }
+
+    /* imgs */
+
+    img {
+        max-width: 100%;
+    }
+
+    #s5 {
+        background-image: url(../materialEJGrid/gallery-1.jpg);
+        background-size: cover;
+    }
+
+    #s6 {
+        background-image: url(../materialEJGrid/gallery-2.jpg);
+        background-size: cover;
+    }
+
+    #s8 {
+        background-image: url(../materialEJGrid/gallery-3.jpg);
+        background-size: cover;
+    }
+
+    #s12 {
+        background-image: url(../materialEJGrid/gallery-4.jpg);
+        background-size: cover;
+    }
+
+    #s15 {
+        background-image: url(../materialEJGrid/gallery-5.jpg);
+        background-size: cover;
+    }
+
+    #s23 {
+        background-image: url(../materialEJGrid/gallery-6.jpg);
+        background-size: cover;
+    }
+
+    #s25 {
+        background-image: url(../materialEJGrid/gallery-7.jpg);
+        background-size: cover;
+    }
+
+    #s29 {
+        background-image: url(../materialEJGrid/gallery-8.jpg);
+        background-size: cover;
+    }
+
+
+    /* colores */
+
+    #s1,
+    #s10,
+    #s24 {
+        background-color: #041354;
+        color: #ededed;
+    }
+
+    #s2,
+    #s14,
+    #s26,
+    #s30 {
+        background-color: #ededed;
+        color: #041354;
+    }
+
+    #s7,
+    #s11,
+    #s19,
+    #s22 {
+        background-color: #4c7af3;
+        color: #ededed;
+    }
+
+    #s3,
+    #s17,
+    #s20 {
+        background-color: #ff834c;
+        color: white;
+    }
+
+    #s4,
+    #s16,
+    #s18,
+    #s28 {
+        background-color: #51e6d6;
+        color: #041354;
+    }
+
+    #s9,
+    #s13,
+    #s21,
+    #s27 {
+        background-color: #d4dae7;
+        color: #041354;
+    }
+
+
+}
